@@ -7,10 +7,13 @@
 
 #include "targetver.h"
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <tchar.h>
 #include <iostream>
 #include <vector>
+#include <string>
 
 
 // TODO: プログラムに必要な追加ヘッダーをここで参照してください。

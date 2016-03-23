@@ -16,11 +16,27 @@ typedef struct HeaderInfo
 
     //  画像サイズ
     int width, height;
+
+    //  出力
+    void print()
+    {
+        std::cout
+            << "--- OpenEXRファイル情報" << "\n"
+            << "    バージョン:" << version_number << "\n"
+            << "    チャンネル:" << std::endl;
+        for (int i = 0; i < (int)ch_name.size(); i++)
+        {
+            std::cout << "       ch[" << i << "] -> " << ch_name[i] << "(" << ch_type[i] << ")" << std::endl;
+        }
+        std::cout
+            << "    画像サイズ:(" << width << "," << height << ")\n"
+            << "---"            << std::endl;
+    }
 };
 
 void readHeader(HeaderInfo  &info)
 {
-    FILE *m_fp;
+    FILE *m_fp = fopen("C:\\Users\\Yosuke\\Desktop\\test.exr", "rb");
 
     //  magic number
     fseek(m_fp, 0, SEEK_SET);
@@ -73,6 +89,12 @@ void readHeader(HeaderInfo  &info)
 
 int main(int argc, char **argv)
 {   
+    HeaderInfo hi;
+    readHeader(hi);
+
+    printf("hoge\n");
+
+    hi.print();
 	return 0;
 }
 
