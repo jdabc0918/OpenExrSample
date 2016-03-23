@@ -1,0 +1,14 @@
+﻿2016/03/23 23:50:50 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "c:\Users\Yosuke\documents\visual studio 2013\Projects\ExrReaderSample\ExrReaderSample\ExrReaderSample.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ExrReaderSample.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ExrReaderSample.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ExrReaderSample.cpp
+         ExrReaderSample.cpp
+     1>c:\users\yosuke\documents\visual studio 2013\projects\exrreadersample\exrreadersample\exrreadersample.cpp(19): warning C4091: 'typedef ' : 変数が何も宣言されていないときは、'HeaderInfo' の左辺を無視します。
+     1>c:\users\yosuke\documents\visual studio 2013\projects\exrreadersample\exrreadersample\exrreadersample.cpp(26): error C4700: 初期化されていないローカル変数 'm_fp' が使用されます
+     1>プロジェクト "c:\Users\Yosuke\documents\visual studio 2013\Projects\ExrReaderSample\ExrReaderSample\ExrReaderSample.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:01.46
