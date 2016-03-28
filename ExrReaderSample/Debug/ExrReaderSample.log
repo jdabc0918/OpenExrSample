@@ -1,4 +1,4 @@
-﻿2016/03/24 0:13:06 にビルドを開始しました。
+﻿2016/03/28 23:31:05 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\Yosuke\documents\visual studio 2013\Projects\ExrReaderSample\ExrReaderSample\ExrReaderSample.vcxproj" (Build ターゲット)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ExrReaderSample.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ExrReaderSample.cpp
@@ -12,4 +12,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:00.31
+経過時間 00:00:00.34
